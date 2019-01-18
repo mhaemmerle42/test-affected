@@ -7,5 +7,21 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "test1": {
+      "tags": []
+    },
+    "test1-e2e": {
+      "tags": []
+    },
+    "test2": {
+      "tags": []
+    },
+    "test2-e2e": {
+      "tags": []
+    },
+    "shared-lib": {
+      "tags": []
+    }
+  }
 }
