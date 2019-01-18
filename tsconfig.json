@@ -12,7 +12,9 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test-affected/shared-lib": ["libs/shared-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
